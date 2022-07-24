@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.voltek.marvelapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.voltek.marvelapp.MarvelApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_marvel_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App.Starting"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.voltek.marvelapp.feature_marvel_heroes.presentation.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

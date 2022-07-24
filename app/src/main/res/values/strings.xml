@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MarvelApp</string>
+
+    <!-- Content Description area-->
+    <string name="cd_back_arrow">Back arrow</string>
+    <string name="cd_character_image">Character image</string>
+    <string name="cd_character_stat">Character Stat</string>
+    <!-- Content Description end-->
+
+    <string name="comics">Comics</string>
+    <string name="series">Series</string>
+    <string name="stories">Stories</string>
+    <string name="events">Events</string>
+    <string name="hint_search_bar">Search…</string>
+</resources>
